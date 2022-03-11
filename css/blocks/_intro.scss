@@ -1,0 +1,93 @@
+.intro {
+    background: #f1e4e6;
+}
+
+.intro__wrap {
+    display: flex;
+    background-image: url("../img/background-intro.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -230px;
+    height: 764px;
+    justify-content: flex-end;
+    @media (max-width: 950px) {
+        height: 367.57px;
+        background-position: -100px;
+    }
+    @media (max-width: 795px) {
+        background-position: -16px;
+    }
+    @media (max-width: 690px) {
+        background: none;
+        justify-content: center;
+    }
+}
+
+.intro__title {
+    display: flex;
+    align-items: center;
+    padding-right: 104px;
+    @media (max-width: 795px) {
+        padding-right: 33px;
+    }
+    @media (max-width: 405px) {
+        padding-right: 0px;
+    }
+}
+
+.intro__brand {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+    @media (max-width: 795px) {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 53px;
+
+        color: #222222;
+    }
+    @media (max-width: 405px) {
+        font-size: 38px;
+        line-height: 46px;
+    }
+}
+
+.intro__lux {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+    @media (max-width: 795px) {
+        font-size: 24px;
+        line-height: 29px;
+        color: #222222;
+    }
+    @media (max-width: 405px) {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+.intro__fashion {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #f16d7f;
+    @media (max-width: 795px) {
+        font-size: 24px;
+        line-height: 29px;
+        color: #222222;
+    }
+    @media (max-width: 405px) {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+.intro__red-column {
+    padding-right: 11px;
+    @media (max-width: 405px) {
+        height: 64px;
+    }
+}

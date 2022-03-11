@@ -1,0 +1,65 @@
+$color-1: #f16d7f; /*pink*/
+
+@mixin text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+@mixin text-registration {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.body {
+    margin: 0;
+}
+
+.wrap {
+    max-width: 1140px;
+    margin: 0 auto;
+    // outline: 1px solid red;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    box-sizing: content-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    @media (max-width: 795px) {
+        max-width: 736px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    @media (max-width: 415px) {
+        max-width: 359px;
+    }
+}
+@import "blocks/_header.scss";
+
+@import "blocks/_intro.scss";
+
+@import "blocks/catogories";
+
+@import "blocks/_breadcrambs.scss";
+
+@import "blocks/title";
+
+@import "blocks/slider";
+@import "blocks/_products-info.scss";
+
+@import "blocks/_products-index.scss";
+
+@import "blocks/products-card";
+@import "blocks/registratiom";
+
+@import "blocks/benefits";
+
+@import "blocks/feedback";
+
+@import "blocks/footer";

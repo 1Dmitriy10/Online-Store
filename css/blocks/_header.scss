@@ -1,0 +1,150 @@
+.header__left-icon-padding {
+    padding-right: 41px;
+}
+
+.header__right-icon-padding {
+    padding-right: 33px;
+    padding-right: 33px;
+    transition: 00.4s;
+    &:hover {
+        transform: scale(1.2);
+    }
+    @media (max-width: 405px) {
+        z-index: -10;
+        position: absolute;
+    }
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 405px) {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+.header__right-icon {
+    align-items: center;
+    display: flex;
+}
+.header {
+    padding: 18px 0;
+    background: #222222;
+}
+
+.head-search {
+    background: transparent;
+    border: none;
+}
+
+.hedar-search-icon {
+    transition: 00.4s;
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.header__left-icon-padding {
+    transition: 00.4s;
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.header-logo {
+    transition: 00.4s;
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.header__basket-link {
+    transition: 00.4s;
+    &:hover {
+        transform: scale(1.2);
+    }
+    @media (max-width: 405px) {
+        z-index: -10;
+        position: absolute;
+    }
+}
+
+.btn-nav {
+    background: transparent;
+    border: none;
+    padding-right: 36px;
+    transition: 00.4s;
+    &:hover {
+        transform: scale(1.2);
+    }
+    @media (max-width: 405px) {
+        padding-right: 10px;
+    }
+}
+
+.header__drop-menu {
+    position: absolute;
+    z-index: -10;
+}
+
+.main-nav {
+    background: #ffffff;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    position: absolute;
+    top: 77px;
+    right: 0px;
+    width: 232px;
+    height: 764px;
+    padding-left: 33px;
+    padding-top: 37px;
+    box-sizing: border-box;
+}
+
+.main-nav__cross {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    border: none;
+    background-color: transparent;
+}
+
+.main-nav__list {
+    list-style: none;
+
+    padding-left: 20px;
+}
+
+.main-nav__titli {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding-bottom: 27px;
+}
+
+.main-nav__category {
+    font-size: 14px;
+    line-height: 17px;
+    color: $color-1;
+    padding-bottom: 15px;
+}
+
+.main-nav__item {
+    padding-bottom: 14px;
+}
+
+.main-nav__link {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6f6e6e;
+}
+
+.main-nav-open {
+    display: block;
+}
+
+.main-nav-close {
+    display: none;
+}

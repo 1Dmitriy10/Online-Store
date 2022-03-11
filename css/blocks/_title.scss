@@ -1,0 +1,23 @@
+.path {
+    background-color: #f8f3f4;
+}
+
+.path__wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+    padding-bottom: 55px;
+    @media (max-width: 415px) {
+        font-size: 24px;
+        line-height: 29px;
+        justify-content: center;
+        padding-top: 33px;
+        padding-bottom: 40px;
+    }
+}
+
+.path__header {
+    font-size: 24px;
+    line-height: 29px;
+    color: $color-1;
+}
